@@ -15,10 +15,6 @@ p {
   line-height: 50%;
 }
 
-p:hover .project {
-  display: inline;
-}
-
 a {
   text-decoration: none;
   color: inherit;
