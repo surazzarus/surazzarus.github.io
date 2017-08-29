@@ -10,6 +10,23 @@ body {
   background-color: #2F2F2F;
 }
 
+.container .info h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+ul {
+  width: 200px;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
 p {
   color: #FFFFFF;
   line-height: 50%;
@@ -21,8 +38,8 @@ a {
 }
 
 a:hover {
-  color:#CF727F;
-  cursor:pointer;
+  color: #CF727F;
+  cursor: pointer;
 }
 
 .terminal {
@@ -63,8 +80,7 @@ a:hover {
   animation: 1.5s blink step-end infinite;
 }
 
-@keyframes "blink",
- {
+@keyframes "blink", {
   from, to {
     color: transparent;
   }
@@ -113,7 +129,6 @@ a:hover {
   .terminal {
     width: 100%;
   }
-
   p:hover .project {
     display: none;
   }
